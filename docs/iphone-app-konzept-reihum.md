@@ -828,6 +828,8 @@ END:VCALENDAR
 |---|---|---|---|
 | 29.09.2026 | Grundentscheide (12.1) | Bürgerlicher Name im App Store akzeptiert; Privatadresse im Impressum; erste Version nur Deutsch; Testgerät iPhone 11 Pro vorhanden; Mac mit Xcode noch zu klären. | erledigt |
 | 29.09.2026 | Namensrecherche «Reihum», Teil 1 (Web) | Websuche nach «Reihum» als App, Marke, Firma, Verein oder Produkt: keine Treffer. Domains reihum.ch, www.reihum.ch, reihum.app, reihum.com: kein DNS-Eintrag, keine erreichbare Website. Das spricht für Verfügbarkeit, ist aber **kein Nachweis**: Eine Domain kann registriert, aber ungenutzt sein; eine Marke kann eingetragen sein, ohne im Web sichtbar zu sein. | teilweise erledigt |
+| 29.09.2026 | Ausrüstung | Mac vorhanden, zurzeit ohne Zugriff. Xcode-Projekt kann vorbereitet werden; Bauen und Testen auf dem Gerät erst, wenn der Mac verfügbar ist. | erledigt |
+| 29.09.2026 | Namensrecherche «Reihum», Entscheid | Registerprüfung erfolgt durch den Projektinhaber selbst (Anleitung unten). Bis dahin läuft das Projekt unter dem **Arbeitstitel «Reihum»**; Name wird erst nach der Prüfung fixiert. | offen (O3), Vorgehen festgelegt |
 | 29.09.2026 | Namensrecherche «Reihum», Teil 2 (Register) | App-Store-Suche (apps.apple.com), Swissreg (swissreg.ch, IGE), .ch-WHOIS (nic.ch), EUIPO eSearch und WIPO Global Brand Database waren aus der Arbeitsumgebung netzwerkseitig gesperrt. **Muss manuell erfolgen** (Anleitung unten). | offen (O3) |
 
 **Anleitung für die manuelle Namensprüfung (Dauer etwa 20 Minuten):**
