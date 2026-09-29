@@ -73,7 +73,7 @@ public enum ICSExporter {
 
     static func escape(_ text: String) -> String {
         text.replacingOccurrences(of: "\\", with: "\\\\")
-            .replacingOccurrences(of: ";", with: "\;")
+            .replacingOccurrences(of: ";", with: "\\;")
             .replacingOccurrences(of: ",", with: "\\,")
             .replacingOccurrences(of: "\r\n", with: "\\n")
             .replacingOccurrences(of: "\n", with: "\\n")

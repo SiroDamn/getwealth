@@ -1,6 +1,6 @@
 # Reihum: Prototyp einrichten (Xcode)
 
-**Stand:** 29. September 2026. **Wichtig:** Dieser Code wurde in einer Umgebung ohne Swift-Compiler geschrieben. Er wurde **nicht kompiliert und die Tests wurden nicht ausgeführt**. Rechne beim ersten Öffnen in Xcode mit kleineren Korrekturen. Melde Fehlermeldungen wörtlich zurück, dann werden sie behoben.
+**Stand:** 29. September 2026. **Teststand:** Das Paket `ReihumCore` wurde mit Swift 6.1.3 unter Linux gebaut; alle 39 Unit-Tests bestehen (`swift test`). Die SwiftUI-Dateien in `app/Reihum/Sources` konnten unter Linux **nicht kompiliert** werden (SwiftUI und UIKit gibt es nur auf Apple-Plattformen); sie sind nur syntaktisch geprüft. Rechne beim ersten Öffnen in Xcode mit kleineren Korrekturen und melde Fehlermeldungen wörtlich zurück.
 
 ## Was hier liegt
 

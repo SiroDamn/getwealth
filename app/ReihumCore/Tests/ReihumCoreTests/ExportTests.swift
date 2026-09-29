@@ -26,9 +26,9 @@ final class ExportTests: XCTestCase {
     }
 
     func testEscaping() {
-        XCTAssertEqual(ICSExporter.escape("a,b;c\\d\ne"), "a\\,b\;c\\\\d\\ne")
+        XCTAssertEqual(ICSExporter.escape("a,b;c\\d\ne"), "a\\,b\\;c\\\\d\\ne")
         let ics = ICSExporter.export(makePlan())
-        XCTAssertTrue(ics.contains("X-WR-CALNAME:Znüni\; Kaffee\\, Tee"))
+        XCTAssertTrue(ics.contains("X-WR-CALNAME:Znüni\\; Kaffee\\, Tee"))
     }
 
     func testUIDIsStableAcrossExports() {
