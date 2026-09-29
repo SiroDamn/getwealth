@@ -24,12 +24,12 @@
 
 | Nr. | Annahme | Begründung / Konsequenz |
 |---|---|---|
-| A1 | Du veröffentlichst als **Einzelperson** im Apple Developer Program, ohne Firma, Versicherung oder Rechtsabteilung. | Dein bürgerlicher Name erscheint als Anbietername im App Store. Es gibt keine Haftungsabschirmung durch eine juristische Person. |
-| A2 | Budget: klein. Vorhanden oder beschaffbar: ein Mac mit aktuellem Xcode, ein iPhone zum Testen. | Wenn kein Mac vorhanden ist, entstehen zusätzliche Kosten; Cloud-Macs sind möglich, aber nicht eingeplant. |
+| A1 | Du veröffentlichst als **Einzelperson** im Apple Developer Program, ohne Firma, Versicherung oder Rechtsabteilung. **Bestätigt am 29.09.2026.** | Dein bürgerlicher Name erscheint als Anbietername im App Store. Es gibt keine Haftungsabschirmung durch eine juristische Person. |
+| A2 | Budget: klein. Vorhanden oder beschaffbar: ein Mac mit aktuellem Xcode, ein iPhone zum Testen. **Stand 29.09.2026: Testgerät iPhone 11 Pro vorhanden; Mac noch offen.** | Wenn kein Mac vorhanden ist, entstehen zusätzliche Kosten; Cloud-Macs sind möglich, aber nicht eingeplant. |
 | A3 | Erste Veröffentlichung nur im **Schweizer App Store**. EU, USA und weitere Länder werden separat geprüft (Abschnitt 11). | Vermeidet vorerst EU-DSA-Händlerpflichten, DSGVO-Vertretungsfragen und US-Verbraucherrecht. |
 | A4 | **Keine Datenerhebung** durch dich: kein Backend, keine Analyse-SDKs, keine Werbung, keine Konten. | Die App kann im App Store mit «Daten werden nicht erfasst» deklariert werden, sofern das im Code tatsächlich so umgesetzt wird. |
 | A5 | Erste Version **kostenlos ohne Käufe**. Monetarisierung wird erst nach der Validierung entschieden. | Reduziert Verbraucherschutz- und Steuerfragen in der ersten Phase. Wenn du später Käufe einbaust, gelten die in Abschnitt 5.11 genannten Auflagen. |
-| A6 | Sprache der ersten Version: Deutsch, mit vorbereiteter Lokalisierung für Französisch, Italienisch und Englisch. | Die Schweiz ist mehrsprachig; eine Nur-Deutsch-Version schliesst rund einen Viertel der Bevölkerung aus. Lokalisierung ist eine Aufwands-, keine Rechtsfrage. |
+| A6 | Sprache der ersten Version: Deutsch, mit vorbereiteter Lokalisierung für Französisch, Italienisch und Englisch. **Entschieden am 29.09.2026: nur Deutsch zum Start.** | Die Schweiz ist mehrsprachig; eine Nur-Deutsch-Version schliesst rund einen Viertel der Bevölkerung aus. Lokalisierung ist eine Aufwands-, keine Rechtsfrage. |
 | A7 | Du bist in der Schweiz steuerpflichtig. Einnahmen aus einer App (falls später) sind Einkommen. | Steuerliche Beurteilung durch eine Fachperson, sobald Einnahmen geplant sind. |
 | A8 | Du hast keine bestehende Marke, Domain oder Firma für die App. | Namenswahl unter Vorbehalt einer Markenrecherche (Swissreg, EUIPO, WIPO) und Verfügbarkeitsprüfung. |
 
@@ -724,6 +724,8 @@ Skala: Wahrscheinlichkeit und Schwere jeweils gering / mittel / hoch. Die Einsch
 
 ### 12.1 Fragen an dich (nur die, ohne die keine verantwortbare Entscheidung möglich ist)
 
+**Entscheidungsprotokoll 29.09.2026:** Frage 1: bürgerlicher Name im App Store ist akzeptiert. Frage 2: Privatadresse im Impressum. Frage 3: erste Version nur Deutsch. Zusätzlich festgehalten: Testgerät iPhone 11 Pro vorhanden; Verfügbarkeit eines Mac mit Xcode noch zu klären.
+
 1. **Öffentlichkeit deines Namens:** Als Einzelperson erscheint dein bürgerlicher Name im App Store [Belegt]. Ist das für dich akzeptabel? Wenn nein, wäre eine spätere Anbieterstruktur (z. B. Einzelfirma mit Firmennamen oder juristische Person) zu prüfen [Offen]; das ist eine Kosten- und Beratungsfrage, kein Grund gegen den Prototyp.
 2. **Adresse im Impressum:** Bist du bereit, eine Postadresse zu nennen (UWG [Sekundär])? Alternativen (c/o, Postfach) sind juristisch zu prüfen [Offen].
 3. **Sprachen der ersten Version:** Nur Deutsch zum Start (schneller) oder DE+FR+IT (Schweizer Reichweite, mehr Prüfaufwand)? Meine konservative Annahme: Deutsch zuerst, FR/IT sobald muttersprachlich geprüft.
@@ -819,3 +821,22 @@ END:VCALENDAR
 ```
 
 *Ende des Dokuments. Dieses Konzept wurde ohne Veröffentlichung, ohne Registrierung und ohne kostenpflichtige Verpflichtungen erstellt.*
+
+## Anhang D: Prüf- und Entscheidungsprotokoll
+
+| Datum | Schritt | Ergebnis | Status |
+|---|---|---|---|
+| 29.09.2026 | Grundentscheide (12.1) | Bürgerlicher Name im App Store akzeptiert; Privatadresse im Impressum; erste Version nur Deutsch; Testgerät iPhone 11 Pro vorhanden; Mac mit Xcode noch zu klären. | erledigt |
+| 29.09.2026 | Namensrecherche «Reihum», Teil 1 (Web) | Websuche nach «Reihum» als App, Marke, Firma, Verein oder Produkt: keine Treffer. Domains reihum.ch, www.reihum.ch, reihum.app, reihum.com: kein DNS-Eintrag, keine erreichbare Website. Das spricht für Verfügbarkeit, ist aber **kein Nachweis**: Eine Domain kann registriert, aber ungenutzt sein; eine Marke kann eingetragen sein, ohne im Web sichtbar zu sein. | teilweise erledigt |
+| 29.09.2026 | Namensrecherche «Reihum», Teil 2 (Register) | App-Store-Suche (apps.apple.com), Swissreg (swissreg.ch, IGE), .ch-WHOIS (nic.ch), EUIPO eSearch und WIPO Global Brand Database waren aus der Arbeitsumgebung netzwerkseitig gesperrt. **Muss manuell erfolgen** (Anleitung unten). | offen (O3) |
+
+**Anleitung für die manuelle Namensprüfung (Dauer etwa 20 Minuten):**
+
+1. **App Store:** Auf dem iPhone im App Store nach «Reihum», «Reihum Plan», «Wer ist dran» und «Turnus» suchen. Notieren, welche Apps erscheinen und ob eine davon denselben Namen oder einen sehr ähnlichen Zweck hat.
+2. **Swissreg (Schweiz):** swissreg.ch → Marken → Suche nach «Reihum» und ähnlichen Schreibweisen («Reium», «Rei-hum»), alle Klassen, zusätzlich gezielt Klassen 9 (Software) und 42 (Softwaredienstleistungen). Treffer mit Status «aktiv» notieren.
+3. **EUIPO eSearch plus (EU):** euipo.europa.eu → eSearch plus → Marken → «Reihum», Klassen 9 und 42. Relevant für eine spätere EU-Ausweitung.
+4. **WIPO Global Brand Database:** branddb.wipo.int → «Reihum». Deckt internationale Registrierungen ab.
+5. **Domain:** nic.ch → WHOIS für reihum.ch; für reihum.app ein beliebiger Registrar mit Verfügbarkeitsprüfung.
+6. **Bewertung:** Kein identischer oder verwechselbarer Treffer in Klassen 9/42 → Name als Arbeitstitel bestätigen und Domain sichern (kleiner Betrag pro Jahr). Verwechselbarer Treffer → Alternativnamen aus 5.7 prüfen («Dran!», «Turnus», «Abwechselnd») oder Fachperson beiziehen.
+
+Diese Eigenrecherche ersetzt keine professionelle Markenrecherche. Sie reicht für die Entscheidung, ob der Prototyp unter dem Arbeitstitel weiterläuft.
