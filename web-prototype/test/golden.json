@@ -1,0 +1,3065 @@
+[
+  {
+    "counts" : {
+      "Anna" : 5,
+      "Ben" : 4,
+      "Cara" : 4
+    },
+    "name" : "weekly friday, three equal members",
+    "slots" : [
+      {
+        "date" : "2026-10-02",
+        "manual" : false,
+        "names" : [
+          "Anna"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-09",
+        "manual" : false,
+        "names" : [
+          "Ben"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-16",
+        "manual" : false,
+        "names" : [
+          "Cara"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-23",
+        "manual" : false,
+        "names" : [
+          "Anna"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-30",
+        "manual" : false,
+        "names" : [
+          "Ben"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-06",
+        "manual" : false,
+        "names" : [
+          "Cara"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-13",
+        "manual" : false,
+        "names" : [
+          "Anna"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-20",
+        "manual" : false,
+        "names" : [
+          "Ben"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-27",
+        "manual" : false,
+        "names" : [
+          "Cara"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-04",
+        "manual" : false,
+        "names" : [
+          "Anna"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-11",
+        "manual" : false,
+        "names" : [
+          "Ben"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-18",
+        "manual" : false,
+        "names" : [
+          "Cara"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-25",
+        "manual" : false,
+        "names" : [
+          "Anna"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      }
+    ]
+  },
+  {
+    "counts" : {
+      "A" : 7,
+      "B" : 7,
+      "C" : 4,
+      "D" : 12
+    },
+    "name" : "weekdays with weights",
+    "slots" : [
+      {
+        "date" : "2026-10-05",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-06",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-07",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-08",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-09",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-12",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-13",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-14",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-15",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-16",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-19",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-20",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-21",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-22",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-23",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-26",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-27",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-28",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-29",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-30",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-02",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-03",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-04",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-05",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-06",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-09",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-10",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-11",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-12",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-13",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      }
+    ]
+  },
+  {
+    "counts" : {
+      "A" : 6,
+      "B" : 5,
+      "C" : 5,
+      "D" : 5,
+      "E" : 5
+    },
+    "name" : "biweekly monday, two per turn",
+    "slots" : [
+      {
+        "date" : "2026-10-05",
+        "manual" : false,
+        "names" : [
+          "A",
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-19",
+        "manual" : false,
+        "names" : [
+          "C",
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-02",
+        "manual" : false,
+        "names" : [
+          "E",
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-16",
+        "manual" : false,
+        "names" : [
+          "B",
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-30",
+        "manual" : false,
+        "names" : [
+          "D",
+          "E"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-14",
+        "manual" : false,
+        "names" : [
+          "A",
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-28",
+        "manual" : false,
+        "names" : [
+          "C",
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-11",
+        "manual" : false,
+        "names" : [
+          "E",
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-25",
+        "manual" : false,
+        "names" : [
+          "B",
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-02-08",
+        "manual" : false,
+        "names" : [
+          "D",
+          "E"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-02-22",
+        "manual" : false,
+        "names" : [
+          "A",
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-03-08",
+        "manual" : false,
+        "names" : [
+          "C",
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-03-22",
+        "manual" : false,
+        "names" : [
+          "E",
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      }
+    ]
+  },
+  {
+    "counts" : {
+      "A" : 3,
+      "B" : 3,
+      "C" : 3,
+      "D" : 3
+    },
+    "name" : "first monday of the month",
+    "slots" : [
+      {
+        "date" : "2026-10-05",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-02",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-07",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-04",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-02-01",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-03-01",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-04-05",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-05-03",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-06-07",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-07-05",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-08-02",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-09-06",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      }
+    ]
+  },
+  {
+    "counts" : {
+      "A" : 5,
+      "B" : 5,
+      "C" : 5
+    },
+    "name" : "last friday incl. leap february",
+    "slots" : [
+      {
+        "date" : "2027-10-29",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-11-26",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-12-31",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-01-28",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-02-25",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-03-31",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-04-28",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-05-26",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-06-30",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-07-28",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-08-25",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-09-29",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-10-27",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-11-24",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-12-29",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      }
+    ]
+  },
+  {
+    "counts" : {
+      "A" : 3,
+      "B" : 3,
+      "C" : 3,
+      "D" : 3
+    },
+    "name" : "day 31 clamps in short months",
+    "slots" : [
+      {
+        "date" : "2028-01-31",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-02-29",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-03-31",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-04-30",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-05-31",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-06-30",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-07-31",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-08-31",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-09-30",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-10-31",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-11-30",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2028-12-31",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      }
+    ]
+  },
+  {
+    "counts" : {
+      "A" : 10,
+      "B" : 10,
+      "C" : 10
+    },
+    "name" : "daily with absences",
+    "slots" : [
+      {
+        "date" : "2026-10-01",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-02",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-03",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-04",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-05",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-06",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-07",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-08",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-09",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-10",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-11",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-12",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-13",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-14",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-15",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-16",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-17",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-18",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-19",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-20",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-21",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-22",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-23",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-24",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-25",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-26",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-27",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-28",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-29",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-30",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      }
+    ]
+  },
+  {
+    "counts" : {
+      "A" : 6,
+      "B" : 7
+    },
+    "name" : "everybody absent and partial turns",
+    "slots" : [
+      {
+        "date" : "2026-10-01",
+        "manual" : false,
+        "names" : [
+          "A",
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-02",
+        "manual" : false,
+        "names" : [
+          "A",
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-03",
+        "manual" : false,
+        "names" : [
+
+        ],
+        "sequence" : 0,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-04",
+        "manual" : false,
+        "names" : [
+          "A",
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-05",
+        "manual" : false,
+        "names" : [
+          "A",
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-06",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-07",
+        "manual" : false,
+        "names" : [
+          "A",
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-08",
+        "manual" : false,
+        "names" : [
+          "A",
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      }
+    ]
+  },
+  {
+    "counts" : {
+      "A" : 5,
+      "B" : 5,
+      "C" : 4,
+      "D" : 4
+    },
+    "name" : "history stays when a member joins later",
+    "slots" : [
+      {
+        "date" : "2026-10-02",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-09",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-16",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-23",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-30",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-06",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-13",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-20",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-27",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-04",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-11",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-18",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-25",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-01",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-08",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-15",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-22",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-29",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      }
+    ]
+  },
+  {
+    "counts" : {
+      "A" : 3,
+      "B" : 3,
+      "C" : 3,
+      "D" : 3
+    },
+    "name" : "manual, skip, swap, then regenerate",
+    "slots" : [
+      {
+        "date" : "2026-10-02",
+        "manual" : true,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-09",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-16",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 3,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-23",
+        "manual" : true,
+        "names" : [
+
+        ],
+        "sequence" : 2,
+        "skipped" : true
+      },
+      {
+        "date" : "2026-10-30",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 3,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-06",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-13",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-20",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-27",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 3,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-04",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-11",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-18",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-25",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 3,
+        "skipped" : false
+      }
+    ]
+  },
+  {
+    "counts" : {
+      "A" : 4,
+      "B" : 1,
+      "C" : 8,
+      "D" : 5
+    },
+    "name" : "deactivate and reweight mid-way",
+    "slots" : [
+      {
+        "date" : "2026-10-02",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-09",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-16",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-23",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-30",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-06",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-13",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-20",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-27",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-04",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-11",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-18",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-25",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-01",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-08",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-15",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-22",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-29",
+        "manual" : false,
+        "names" : [
+          "D"
+        ],
+        "sequence" : 2,
+        "skipped" : false
+      }
+    ]
+  },
+  {
+    "counts" : {
+      "A" : 5,
+      "B" : 5,
+      "C" : 5
+    },
+    "name" : "rhythm changes mid-way",
+    "slots" : [
+      {
+        "date" : "2026-10-02",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-05",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-09",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-16",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-19",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-23",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-30",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-02",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-06",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-16",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-30",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-14",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-28",
+        "manual" : false,
+        "names" : [
+          "A"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-11",
+        "manual" : false,
+        "names" : [
+          "B"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-25",
+        "manual" : false,
+        "names" : [
+          "C"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      }
+    ]
+  },
+  {
+    "counts" : {
+      "P00" : 3,
+      "P01" : 5,
+      "P02" : 5,
+      "P03" : 5,
+      "P04" : 5,
+      "P05" : 5,
+      "P06" : 5,
+      "P07" : 3,
+      "P08" : 5,
+      "P09" : 5,
+      "P10" : 4,
+      "P11" : 4,
+      "P12" : 4,
+      "P13" : 4,
+      "P14" : 3,
+      "P15" : 4,
+      "P16" : 4,
+      "P17" : 4,
+      "P18" : 4,
+      "P19" : 4,
+      "P20" : 4,
+      "P21" : 3,
+      "P22" : 4,
+      "P23" : 4,
+      "P24" : 4,
+      "P25" : 4,
+      "P26" : 4,
+      "P27" : 4,
+      "P28" : 3,
+      "P29" : 4
+    },
+    "name" : "many members over a long daily plan",
+    "slots" : [
+      {
+        "date" : "2026-10-01",
+        "manual" : false,
+        "names" : [
+          "P00"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-02",
+        "manual" : false,
+        "names" : [
+          "P01"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-03",
+        "manual" : false,
+        "names" : [
+          "P02"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-04",
+        "manual" : false,
+        "names" : [
+          "P03"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-05",
+        "manual" : false,
+        "names" : [
+          "P04"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-06",
+        "manual" : false,
+        "names" : [
+          "P05"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-07",
+        "manual" : false,
+        "names" : [
+          "P06"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-08",
+        "manual" : false,
+        "names" : [
+          "P07"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-09",
+        "manual" : false,
+        "names" : [
+          "P08"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-10",
+        "manual" : false,
+        "names" : [
+          "P09"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-11",
+        "manual" : false,
+        "names" : [
+          "P10"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-12",
+        "manual" : false,
+        "names" : [
+          "P11"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-13",
+        "manual" : false,
+        "names" : [
+          "P12"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-14",
+        "manual" : false,
+        "names" : [
+          "P13"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-15",
+        "manual" : false,
+        "names" : [
+          "P14"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-16",
+        "manual" : false,
+        "names" : [
+          "P15"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-17",
+        "manual" : false,
+        "names" : [
+          "P16"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-18",
+        "manual" : false,
+        "names" : [
+          "P17"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-19",
+        "manual" : false,
+        "names" : [
+          "P18"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-20",
+        "manual" : false,
+        "names" : [
+          "P19"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-21",
+        "manual" : false,
+        "names" : [
+          "P20"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-22",
+        "manual" : false,
+        "names" : [
+          "P21"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-23",
+        "manual" : false,
+        "names" : [
+          "P22"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-24",
+        "manual" : false,
+        "names" : [
+          "P23"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-25",
+        "manual" : false,
+        "names" : [
+          "P24"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-26",
+        "manual" : false,
+        "names" : [
+          "P25"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-27",
+        "manual" : false,
+        "names" : [
+          "P26"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-28",
+        "manual" : false,
+        "names" : [
+          "P27"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-29",
+        "manual" : false,
+        "names" : [
+          "P28"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-30",
+        "manual" : false,
+        "names" : [
+          "P29"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-10-31",
+        "manual" : false,
+        "names" : [
+          "P01"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-01",
+        "manual" : false,
+        "names" : [
+          "P02"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-02",
+        "manual" : false,
+        "names" : [
+          "P03"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-03",
+        "manual" : false,
+        "names" : [
+          "P04"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-04",
+        "manual" : false,
+        "names" : [
+          "P05"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-05",
+        "manual" : false,
+        "names" : [
+          "P06"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-06",
+        "manual" : false,
+        "names" : [
+          "P08"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-07",
+        "manual" : false,
+        "names" : [
+          "P09"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-08",
+        "manual" : false,
+        "names" : [
+          "P10"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-09",
+        "manual" : false,
+        "names" : [
+          "P11"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-10",
+        "manual" : false,
+        "names" : [
+          "P12"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-11",
+        "manual" : false,
+        "names" : [
+          "P13"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-12",
+        "manual" : false,
+        "names" : [
+          "P15"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-13",
+        "manual" : false,
+        "names" : [
+          "P16"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-14",
+        "manual" : false,
+        "names" : [
+          "P17"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-15",
+        "manual" : false,
+        "names" : [
+          "P18"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-16",
+        "manual" : false,
+        "names" : [
+          "P19"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-17",
+        "manual" : false,
+        "names" : [
+          "P20"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-18",
+        "manual" : false,
+        "names" : [
+          "P22"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-19",
+        "manual" : false,
+        "names" : [
+          "P23"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-20",
+        "manual" : false,
+        "names" : [
+          "P24"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-21",
+        "manual" : false,
+        "names" : [
+          "P25"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-22",
+        "manual" : false,
+        "names" : [
+          "P26"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-23",
+        "manual" : false,
+        "names" : [
+          "P27"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-24",
+        "manual" : false,
+        "names" : [
+          "P29"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-25",
+        "manual" : false,
+        "names" : [
+          "P00"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-26",
+        "manual" : false,
+        "names" : [
+          "P07"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-27",
+        "manual" : false,
+        "names" : [
+          "P14"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-28",
+        "manual" : false,
+        "names" : [
+          "P21"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-29",
+        "manual" : false,
+        "names" : [
+          "P28"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-11-30",
+        "manual" : false,
+        "names" : [
+          "P01"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-01",
+        "manual" : false,
+        "names" : [
+          "P02"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-02",
+        "manual" : false,
+        "names" : [
+          "P03"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-03",
+        "manual" : false,
+        "names" : [
+          "P04"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-04",
+        "manual" : false,
+        "names" : [
+          "P05"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-05",
+        "manual" : false,
+        "names" : [
+          "P06"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-06",
+        "manual" : false,
+        "names" : [
+          "P08"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-07",
+        "manual" : false,
+        "names" : [
+          "P09"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-08",
+        "manual" : false,
+        "names" : [
+          "P10"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-09",
+        "manual" : false,
+        "names" : [
+          "P11"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-10",
+        "manual" : false,
+        "names" : [
+          "P12"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-11",
+        "manual" : false,
+        "names" : [
+          "P13"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-12",
+        "manual" : false,
+        "names" : [
+          "P15"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-13",
+        "manual" : false,
+        "names" : [
+          "P16"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-14",
+        "manual" : false,
+        "names" : [
+          "P17"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-15",
+        "manual" : false,
+        "names" : [
+          "P18"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-16",
+        "manual" : false,
+        "names" : [
+          "P19"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-17",
+        "manual" : false,
+        "names" : [
+          "P20"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-18",
+        "manual" : false,
+        "names" : [
+          "P22"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-19",
+        "manual" : false,
+        "names" : [
+          "P23"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-20",
+        "manual" : false,
+        "names" : [
+          "P24"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-21",
+        "manual" : false,
+        "names" : [
+          "P25"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-22",
+        "manual" : false,
+        "names" : [
+          "P26"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-23",
+        "manual" : false,
+        "names" : [
+          "P27"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-24",
+        "manual" : false,
+        "names" : [
+          "P29"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-25",
+        "manual" : false,
+        "names" : [
+          "P01"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-26",
+        "manual" : false,
+        "names" : [
+          "P02"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-27",
+        "manual" : false,
+        "names" : [
+          "P03"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-28",
+        "manual" : false,
+        "names" : [
+          "P04"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-29",
+        "manual" : false,
+        "names" : [
+          "P05"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-30",
+        "manual" : false,
+        "names" : [
+          "P06"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2026-12-31",
+        "manual" : false,
+        "names" : [
+          "P08"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-01",
+        "manual" : false,
+        "names" : [
+          "P09"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-02",
+        "manual" : false,
+        "names" : [
+          "P10"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-03",
+        "manual" : false,
+        "names" : [
+          "P11"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-04",
+        "manual" : false,
+        "names" : [
+          "P12"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-05",
+        "manual" : false,
+        "names" : [
+          "P13"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-06",
+        "manual" : false,
+        "names" : [
+          "P15"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-07",
+        "manual" : false,
+        "names" : [
+          "P16"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-08",
+        "manual" : false,
+        "names" : [
+          "P17"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-09",
+        "manual" : false,
+        "names" : [
+          "P18"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-10",
+        "manual" : false,
+        "names" : [
+          "P19"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-11",
+        "manual" : false,
+        "names" : [
+          "P20"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-12",
+        "manual" : false,
+        "names" : [
+          "P22"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-13",
+        "manual" : false,
+        "names" : [
+          "P23"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-14",
+        "manual" : false,
+        "names" : [
+          "P24"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-15",
+        "manual" : false,
+        "names" : [
+          "P25"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-16",
+        "manual" : false,
+        "names" : [
+          "P26"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-17",
+        "manual" : false,
+        "names" : [
+          "P27"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-18",
+        "manual" : false,
+        "names" : [
+          "P29"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-19",
+        "manual" : false,
+        "names" : [
+          "P00"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-20",
+        "manual" : false,
+        "names" : [
+          "P07"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-21",
+        "manual" : false,
+        "names" : [
+          "P14"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-22",
+        "manual" : false,
+        "names" : [
+          "P21"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-23",
+        "manual" : false,
+        "names" : [
+          "P28"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-24",
+        "manual" : false,
+        "names" : [
+          "P01"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-25",
+        "manual" : false,
+        "names" : [
+          "P02"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-26",
+        "manual" : false,
+        "names" : [
+          "P03"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-27",
+        "manual" : false,
+        "names" : [
+          "P04"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-28",
+        "manual" : false,
+        "names" : [
+          "P05"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-29",
+        "manual" : false,
+        "names" : [
+          "P06"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-30",
+        "manual" : false,
+        "names" : [
+          "P08"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      },
+      {
+        "date" : "2027-01-31",
+        "manual" : false,
+        "names" : [
+          "P09"
+        ],
+        "sequence" : 1,
+        "skipped" : false
+      }
+    ]
+  }
+]

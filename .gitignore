@@ -1,0 +1,13 @@
+# Xcode / Swift
+.build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.swiftpm/xcode/
+Package.resolved
+.swiftpm/
+app/ReihumXcode/
+
+# macOS
+.DS_Store
