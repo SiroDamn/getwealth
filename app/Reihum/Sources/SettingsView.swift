@@ -86,7 +86,7 @@ struct SettingsView: View {
                         let count = try store.importJSON(data)
                         message = count == 1 ? "1 Plan importiert." : "\(count) Pläne importiert."
                     } catch {
-                        message = "Import fehlgeschlagen. Die Datei ist keine gültige Reihum-Sicherung."
+                        message = "Import fehlgeschlagen. \(error.localizedDescription)"
                     }
                 case .failure(let error):
                     message = error.localizedDescription

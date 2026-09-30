@@ -1,12 +1,12 @@
 # Reihum: Prototyp einrichten (Xcode)
 
-**Stand:** 29. September 2026. **Teststand:** Das Paket `ReihumCore` wurde mit Swift 6.1.3 unter Linux gebaut; alle 41 Unit-Tests bestehen (`swift test`). Die SwiftUI-Dateien in `app/Reihum/Sources` konnten unter Linux **nicht kompiliert** werden (SwiftUI und UIKit gibt es nur auf Apple-Plattformen); sie sind nur syntaktisch geprüft (`PlanStore` zusätzlich gegen das Kernmodul typgeprüft). Rechne beim ersten Öffnen in Xcode mit kleineren Korrekturen und melde Fehlermeldungen wörtlich zurück.
+**Stand:** 29. September 2026. **Teststand:** Das Paket `ReihumCore` wurde mit Swift 6.1.3 unter Linux gebaut; alle 69 Unit-Tests bestehen (`swift test`). Die SwiftUI-Dateien in `app/Reihum/Sources` konnten unter Linux **nicht kompiliert** werden (SwiftUI und UIKit gibt es nur auf Apple-Plattformen); sie sind nur syntaktisch geprüft (`PlanStore` zusätzlich gegen das Kernmodul typgeprüft). Rechne beim ersten Öffnen in Xcode mit kleineren Korrekturen und melde Fehlermeldungen wörtlich zurück.
 
 ## Was hier liegt
 
 | Ordner | Inhalt |
 |---|---|
-| `app/ReihumCore/` | Swift-Paket ohne UI: Kalendertage (`DayDate`), Rhythmen, Fairness-Engine, Kalender- und Text-Export, Unit-Tests. Läuft auf macOS, iOS und Linux. |
+| `app/ReihumCore/` | Swift-Paket ohne UI: Kalendertage (`DayDate`), Rhythmen, Fairness-Engine, Kalender- und Text-Export, lokale Speicherung (`PlanStore`), Validierung und Sicherungsformat, Unit-Tests. Läuft auf macOS, iOS und Linux. |
 | `app/Reihum/Sources/` | SwiftUI-Screens der App (S1 bis S11 aus dem Konzept), lokale JSON-Speicherung, Erinnerungen, Teilen. |
 | `app/Reihum/Resources/PrivacyInfo.xcprivacy` | Privacy Manifest: kein Tracking, keine Datenerhebung. |
 
@@ -57,7 +57,7 @@ Erwartung: Alle Tests grün. Falls nicht, Ausgabe kopieren und zurückmelden.
 - Datenschutz- und Impressumstexte sind **Entwürfe** mit eckigen Klammern; in der App sichtbar als «Entwurf» markiert. Vor jeder Weitergabe an Dritte (auch TestFlight) mindestens Name und Kontakt eintragen.
 - Kein App-Icon enthalten. Ein eigenes Icon muss gestaltet werden; **kein SF Symbol** als Icon verwenden.
 - Nur Deutsch. Texte liegen als Literale im Code; für FR/IT/EN später in einen String-Katalog überführen.
-- Persistenz ist eine JSON-Datei mit atomarem Schreiben (bewusst einfach für den Prototyp). Ob das MVP bei JSON bleibt oder auf SwiftData wechselt, wird nach dem Prototyp entschieden; Export/Import funktioniert unabhängig davon.
+- Persistenz: eine JSON-Datei mit Schema-Version, atomar geschrieben, im Kernpaket getestet. Eine unlesbare oder neuere Datei wird beiseitegelegt statt überschrieben, Import ist alles-oder-nichts mit Grössen- und Inhaltsprüfung. Empfehlung: für das MVP dabei bleiben (einfach, testbar, portabel).
 - Keine Widgets, keine Feiertage, kein Sync, keine Käufe (bewusst, siehe Konzept 5.6).
 - Der `CA92.1`-Begründungscode im Privacy Manifest muss vor der Einreichung gegen die aktuelle Apple-Dokumentation geprüft werden.
 

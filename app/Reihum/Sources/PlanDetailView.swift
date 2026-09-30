@@ -200,13 +200,17 @@ struct RhythmEditorView: View {
             Form {
                 Section("Zeitraum") {
                     DatePicker("Start", selection: $start, displayedComponents: .date)
-                    DatePicker("Ende", selection: $end, in: start..., displayedComponents: .date)
+                    DatePicker("Ende", selection: $end, in: start...latestEnd, displayedComponents: .date)
                 }
                 Section {
                     RhythmForm(draft: $rhythm, slotSize: $slotSize)
                 } footer: {
                     Text("Ergibt \(previewCount) Termine. Vergangene und manuell gesetzte Termine bleiben erhalten.")
                 }
+            }
+            .onChange(of: start) { _, _ in
+                if end < start { end = start }
+                if end > latestEnd { end = latestEnd }
             }
             .navigationTitle("Rhythmus & Zeitraum")
             .navigationBarTitleDisplayMode(.inline)
@@ -215,6 +219,11 @@ struct RhythmEditorView: View {
                 ToolbarItem(placement: .confirmationAction) { Button("Speichern", action: save) }
             }
         }
+    }
+
+    /// A plan may span at most ten years (see `PlanLimits`).
+    private var latestEnd: Date {
+        DayDate(start).adding(days: RhythmGenerator.maximumSpanDays).startOfDay()
     }
 
     private var previewCount: Int {
