@@ -82,7 +82,7 @@ struct ShareView: View {
                 .clipShape(RoundedRectangle(cornerRadius: 16))
                 .shadow(radius: 4)
         case .text:
-            Text(TextExporter.export(plan, memberID: memberFilter))
+            Text(TextExporter.export(plan, memberID: memberFilter, from: DayDate.today()))
                 .font(.system(.body, design: .monospaced))
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .textSelection(.enabled)
@@ -91,7 +91,7 @@ struct ShareView: View {
                 Label("Kalenderdatei (.ics)", systemImage: "calendar.badge.plus").font(.headline)
                 Text("Empfangende öffnen die Datei und fügen die Termine ihrem Kalender hinzu. Ganztägige Termine mit Erinnerung am Vortag um 18 Uhr. Eine App wird dafür nicht benötigt.")
                     .foregroundStyle(.secondary)
-                Text(memberFilter == nil ? "Enthält alle Termine des Plans." : "Enthält nur die Termine der gewählten Person.")
+                Text(memberFilter == nil ? "Enthält alle kommenden Termine des Plans." : "Enthält nur die kommenden Termine der gewählten Person.")
                     .font(.footnote)
                     .foregroundStyle(.secondary)
             }
@@ -132,7 +132,7 @@ struct ShareView: View {
                 ProgressView()
             }
         case .text:
-            ShareLink(item: TextExporter.export(plan, memberID: memberFilter)) {
+            ShareLink(item: TextExporter.export(plan, memberID: memberFilter, from: DayDate.today())) {
                 Label("Text teilen", systemImage: "square.and.arrow.up")
             }
             .buttonStyle(.borderedProminent)
@@ -160,7 +160,7 @@ struct ShareView: View {
             }
             #endif
         case .calendar:
-            let text = ICSExporter.export(plan, options: ICSExporter.Options(memberID: memberFilter))
+            let text = ICSExporter.export(plan, options: ICSExporter.Options(memberID: memberFilter, from: DayDate.today()))
             let safeName = plan.name.components(separatedBy: CharacterSet.alphanumerics.inverted).filter { !$0.isEmpty }.joined(separator: "-")
             let url = FileManager.default.temporaryDirectory.appendingPathComponent("\(safeName.isEmpty ? "Reihum" : safeName).ics")
             do {

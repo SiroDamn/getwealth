@@ -1,6 +1,6 @@
 # Reihum: Prototyp einrichten (Xcode)
 
-**Stand:** 29. September 2026. **Teststand:** Das Paket `ReihumCore` wurde mit Swift 6.1.3 unter Linux gebaut; alle 39 Unit-Tests bestehen (`swift test`). Die SwiftUI-Dateien in `app/Reihum/Sources` konnten unter Linux **nicht kompiliert** werden (SwiftUI und UIKit gibt es nur auf Apple-Plattformen); sie sind nur syntaktisch geprüft. Rechne beim ersten Öffnen in Xcode mit kleineren Korrekturen und melde Fehlermeldungen wörtlich zurück.
+**Stand:** 29. September 2026. **Teststand:** Das Paket `ReihumCore` wurde mit Swift 6.1.3 unter Linux gebaut; alle 41 Unit-Tests bestehen (`swift test`). Die SwiftUI-Dateien in `app/Reihum/Sources` konnten unter Linux **nicht kompiliert** werden (SwiftUI und UIKit gibt es nur auf Apple-Plattformen); sie sind nur syntaktisch geprüft (`PlanStore` zusätzlich gegen das Kernmodul typgeprüft). Rechne beim ersten Öffnen in Xcode mit kleineren Korrekturen und melde Fehlermeldungen wörtlich zurück.
 
 ## Was hier liegt
 
@@ -62,5 +62,7 @@ Erwartung: Alle Tests grün. Falls nicht, Ausgabe kopieren und zurückmelden.
 - Der `CA92.1`-Begründungscode im Privacy Manifest muss vor der Einreichung gegen die aktuelle Apple-Dokumentation geprüft werden.
 
 ## 5. Wenn etwas nicht baut
+
+**Bekannte Stelle bei neuen Xcode-Projekten:** Je nach Xcode-Version steht im Build Setting *Default Actor Isolation* der Wert *MainActor*. Dann können Meldungen zu «main actor-isolated» bei `ReminderManager` und `Fmt` erscheinen. Abhilfe: Build Setting auf *nonisolated* stellen, oder die Meldung wörtlich zurückmelden.
 
 Xcode-Fehlermeldung (Datei, Zeile, Text) wörtlich zurückmelden. Häufige Ursachen bei ungetestetem Code: fehlende `import`-Zeile, ein veralteter API-Name, ein Typ, der `Identifiable` oder `Hashable` sein muss. Diese Korrekturen sind klein.

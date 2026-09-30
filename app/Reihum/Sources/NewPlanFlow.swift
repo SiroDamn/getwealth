@@ -11,8 +11,7 @@ struct NewPlanFlow: View {
     @State private var name = ""
     @State private var symbolName = Symbols.choices[0]
     @State private var colorIndex = 0
-    @State private var memberNames: [String] = []
-    @State private var memberWeights: [Double] = []
+    @State private var memberDrafts: [MemberDraft] = []
     @State private var newMemberName = ""
     @State private var rhythm = RhythmDraft()
     @State private var slotSize = 1
@@ -20,6 +19,13 @@ struct NewPlanFlow: View {
     @State private var durationWeeks = 12
 
     private let stepTitles = ["Name", "Personen", "Rhythmus", "Zeitraum"]
+
+    /// One row in the people step. Identifiable so that deleting a row can never leave a stale index behind.
+    private struct MemberDraft: Identifiable {
+        let id = UUID()
+        var name: String
+        var weight: Double = 1
+    }
 
     var body: some View {
         NavigationStack {
@@ -56,7 +62,7 @@ struct NewPlanFlow: View {
     private var canContinue: Bool {
         switch step {
         case 0: return !name.trimmingCharacters(in: .whitespaces).isEmpty
-        case 1: return memberNames.count >= 2
+        case 1: return memberDrafts.count >= 2
         default: return durationWeeks >= 1
         }
     }
@@ -105,24 +111,21 @@ struct NewPlanFlow: View {
     private var peopleStep: some View {
         Group {
             Section {
-                ForEach(memberNames.indices, id: \.self) { index in
+                ForEach($memberDrafts) { $draft in
                     HStack {
-                        Text(memberNames[index])
+                        Text(draft.name)
                         Spacer()
-                        Picker("Anteil", selection: $memberWeights[index]) {
+                        Picker("Anteil", selection: $draft.weight) {
                             Text("½").tag(0.5)
                             Text("1").tag(1.0)
                             Text("2").tag(2.0)
                         }
                         .pickerStyle(.segmented)
                         .frame(width: 130)
-                        .accessibilityLabel("Anteil von \(memberNames[index])")
+                        .accessibilityLabel("Anteil von \(draft.name)")
                     }
                 }
-                .onDelete { offsets in
-                    memberNames.remove(atOffsets: offsets)
-                    memberWeights.remove(atOffsets: offsets)
-                }
+                .onDelete { offsets in memberDrafts.remove(atOffsets: offsets) }
                 HStack {
                     TextField("Vorname hinzufügen", text: $newMemberName)
                         .submitLabel(.done)
@@ -131,9 +134,9 @@ struct NewPlanFlow: View {
                         .disabled(newMemberName.trimmingCharacters(in: .whitespaces).isEmpty)
                 }
             } header: {
-                Text("Personen (\(memberNames.count))")
+                Text("Personen (\(memberDrafts.count))")
             } footer: {
-                Text(memberNames.count < 2 ? "Mindestens zwei Personen." : "Anteil ½ = halb so oft dran, zum Beispiel bei Teilzeit. Nur Vornamen genügen.")
+                Text(memberDrafts.count < 2 ? "Mindestens zwei Personen." : "Anteil ½ = halb so oft dran, zum Beispiel bei Teilzeit. Nur Vornamen genügen.")
             }
         }
     }
@@ -166,14 +169,13 @@ struct NewPlanFlow: View {
     private func addMember() {
         let trimmed = newMemberName.trimmingCharacters(in: .whitespaces)
         guard !trimmed.isEmpty, trimmed.count <= 40 else { return }
-        memberNames.append(trimmed)
-        memberWeights.append(1)
+        memberDrafts.append(MemberDraft(name: trimmed))
         newMemberName = ""
     }
 
     private func create() {
-        let members = memberNames.indices.map { index in
-            Member(name: memberNames[index], weight: memberWeights[index], colorIndex: index)
+        let members = memberDrafts.enumerated().map { index, draft in
+            Member(name: draft.name, weight: draft.weight, colorIndex: index)
         }
         let plan = Plan(
             name: name.trimmingCharacters(in: .whitespaces),

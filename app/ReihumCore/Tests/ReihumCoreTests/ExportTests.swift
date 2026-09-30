@@ -88,6 +88,35 @@ final class ExportTests: XCTestCase {
         XCTAssertFalse(filtered.contains("offen"))
     }
 
+    func testFromDayLeavesOutPastTurnsInBothExports() {
+        let plan = makePlan() // Fridays 2 Oct, 9 Oct, 16 Oct, 23 Oct 2026
+        let cutoff = DayDate(year: 2026, month: 10, day: 16)
+
+        let ics = ICSExporter.export(plan, options: ICSExporter.Options(from: cutoff))
+        XCTAssertEqual(ics.components(separatedBy: "BEGIN:VEVENT").count - 1, 2)
+        XCTAssertFalse(ics.contains("DTSTART;VALUE=DATE:20261002"))
+        XCTAssertTrue(ics.contains("DTSTART;VALUE=DATE:20261016"))
+
+        let text = TextExporter.export(plan, from: cutoff)
+        XCTAssertEqual(text.components(separatedBy: "\n").count, 4) // title, blank, two turns
+        XCTAssertFalse(text.contains("02.10.2026"))
+        XCTAssertTrue(text.contains("16.10.2026"))
+
+        // A cutoff after the last turn leaves only the header.
+        let none = TextExporter.export(plan, from: DayDate(year: 2027, month: 1, day: 1))
+        XCTAssertEqual(none, plan.name + "\n")
+    }
+
+    func testFromDayCombinesWithMemberFilter() {
+        let plan = makePlan()
+        let cutoff = DayDate(year: 2026, month: 10, day: 9)
+        for member in plan.members {
+            let expected = plan.slots.filter { $0.date >= cutoff && $0.assignedMemberIDs.contains(member.id) }.count
+            let ics = ICSExporter.export(plan, options: ICSExporter.Options(memberID: member.id, from: cutoff))
+            XCTAssertEqual(ics.components(separatedBy: "BEGIN:VEVENT").count - 1, expected)
+        }
+    }
+
     func testPlanCodableRoundTrip() throws {
         let plan = makePlan()
         let encoder = JSONEncoder()

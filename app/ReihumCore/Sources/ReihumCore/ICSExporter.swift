@@ -9,14 +9,17 @@ public enum ICSExporter {
         /// Relative trigger; -PT6H fires at 18:00 on the day before an all-day event.
         public var alarmTrigger: String
         public var includeOpenSlots: Bool
+        /// When set, turns before this day are left out.
+        public var from: DayDate?
         public var productID: String
         public var uidSuffix: String
 
-        public init(memberID: UUID? = nil, includeAlarm: Bool = true, alarmTrigger: String = "-PT6H", includeOpenSlots: Bool = true, productID: String = "-//Reihum//Turnusplan//DE", uidSuffix: String = "reihum") {
+        public init(memberID: UUID? = nil, includeAlarm: Bool = true, alarmTrigger: String = "-PT6H", includeOpenSlots: Bool = true, from: DayDate? = nil, productID: String = "-//Reihum//Turnusplan//DE", uidSuffix: String = "reihum") {
             self.memberID = memberID
             self.includeAlarm = includeAlarm
             self.alarmTrigger = alarmTrigger
             self.includeOpenSlots = includeOpenSlots
+            self.from = from
             self.productID = productID
             self.uidSuffix = uidSuffix
         }
@@ -34,6 +37,7 @@ public enum ICSExporter {
         let stamp = timestamp(now)
 
         for slot in plan.sortedSlots where !slot.isSkipped {
+            if let from = options.from, slot.date < from { continue }
             if let memberID = options.memberID {
                 guard slot.assignedMemberIDs.contains(memberID) else { continue }
             } else if slot.isOpen && !options.includeOpenSlots {

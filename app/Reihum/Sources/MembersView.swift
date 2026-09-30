@@ -28,7 +28,7 @@ struct MembersView: View {
                             }
                         }
                     }
-                    .onDelete { offsets in draft.members.remove(atOffsets: offsets) }
+                    .onDelete { offsets in removeMembers(at: offsets) }
                     HStack {
                         TextField("Vorname hinzufügen", text: $newName)
                             .submitLabel(.done)
@@ -62,6 +62,26 @@ struct MembersView: View {
         if !member.isActive { parts.append("inaktiv") }
         if !member.absences.isEmpty { parts.append("\(member.absences.count) Abwesenheit\(member.absences.count == 1 ? "" : "en")") }
         return parts.joined(separator: " · ")
+    }
+
+    /// A member who already has past turns is deactivated instead of removed, so the history stays readable.
+    /// Upcoming manual assignments of a removed member are cleared and become open turns.
+    private func removeMembers(at offsets: IndexSet) {
+        let today = DayDate.today()
+        for index in offsets.sorted(by: >) {
+            let id = draft.members[index].id
+            let hasHistory = draft.slots.contains { slot in
+                slot.date < today && slot.assignedMemberIDs.contains(id)
+            }
+            if hasHistory {
+                draft.members[index].isActive = false
+            } else {
+                draft.members.remove(at: index)
+                for slotIndex in draft.slots.indices where draft.slots[slotIndex].date >= today {
+                    draft.slots[slotIndex].assignedMemberIDs.removeAll { $0 == id }
+                }
+            }
+        }
     }
 
     private func addMember() {
