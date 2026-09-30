@@ -35,11 +35,12 @@ Erwartung: Alle Tests grün. Falls nicht, Ausgabe kopieren und zurückmelden.
    - Speicherort: **ausserhalb** dieses Repositories oder in `app/ReihumXcode/` (dann in `.gitignore` aufnehmen, falls du das Projekt nicht versionieren willst; die Quellen bleiben ohnehin in `app/Reihum/Sources`).
 2. Im Projekt-Navigator die automatisch erzeugten Dateien `ContentView.swift` und `ReihumApp.swift` **löschen** (Move to Trash).
 3. **Quellen hinzufügen:** Ordner `app/Reihum/Sources` aus dem Finder in den Projekt-Navigator ziehen. Im Dialog: «Copy items if needed» **aus**, «Create groups», Target `Reihum` **angehakt**. So bleiben die Dateien im Repository und Änderungen sind versionierbar.
-4. **Privacy Manifest hinzufügen:** `app/Reihum/Resources/PrivacyInfo.xcprivacy` ebenso hineinziehen, Target `Reihum` angehakt.
-5. **Kern-Paket einbinden:** Projekt auswählen → Target `Reihum` → Tab **General** → **Frameworks, Libraries, and Embedded Content** → «+» → **Add Other… → Add Package Dependency… → Add Local…** → Ordner `app/ReihumCore` wählen → Produkt `ReihumCore` dem Target hinzufügen.
-6. **Deployment Target:** Target `Reihum` → General → Minimum Deployments → **iOS 18.0**.
-7. **Signing:** Tab Signing & Capabilities → «Automatically manage signing» an, Team wählen.
-8. iPhone per Kabel verbinden, als Ziel wählen, **Run** (⌘R). Beim ersten Start auf dem iPhone: Einstellungen → Allgemein → VPN & Geräteverwaltung → Entwickler-App vertrauen.
+4. **Assets tauschen:** Die von Xcode erzeugte `Assets.xcassets` löschen und stattdessen `app/Reihum/Resources/Assets.xcassets` hineinziehen (Target `Reihum` angehakt). Sie enthält das eigene App-Symbol und die Akzentfarbe; in den Build Settings muss der Akzentfarben-Name `AccentColor` heissen (Standard).
+5. **Privacy Manifest hinzufügen:** `app/Reihum/Resources/PrivacyInfo.xcprivacy` ebenso hineinziehen, Target `Reihum` angehakt.
+6. **Kern-Paket einbinden:** Projekt auswählen → Target `Reihum` → Tab **General** → **Frameworks, Libraries, and Embedded Content** → «+» → **Add Other… → Add Package Dependency… → Add Local…** → Ordner `app/ReihumCore` wählen → Produkt `ReihumCore` dem Target hinzufügen.
+7. **Deployment Target:** Target `Reihum` → General → Minimum Deployments → **iOS 18.0**.
+8. **Signing:** Tab Signing & Capabilities → «Automatically manage signing» an, Team wählen.
+9. iPhone per Kabel verbinden, als Ziel wählen, **Run** (⌘R). Beim ersten Start auf dem iPhone: Einstellungen → Allgemein → VPN & Geräteverwaltung → Entwickler-App vertrauen.
 
 ## 3. Was du im Prototyp prüfen kannst
 
@@ -55,7 +56,7 @@ Erwartung: Alle Tests grün. Falls nicht, Ausgabe kopieren und zurückmelden.
 ## 4. Bekannte Platzhalter und Grenzen des Prototyps
 
 - Datenschutz- und Impressumstexte sind **Entwürfe** mit eckigen Klammern; in der App sichtbar als «Entwurf» markiert. Vor jeder Weitergabe an Dritte (auch TestFlight) mindestens Name und Kontakt eintragen.
-- Kein App-Icon enthalten. Ein eigenes Icon muss gestaltet werden; **kein SF Symbol** als Icon verwenden.
+- App-Symbol: ein eigener Entwurf liegt bei (`design/app-icon.svg`, fertiges PNG im Asset-Katalog). Er ist ein erster Vorschlag und braucht deine Freigabe. Kein SF Symbol als Icon verwenden.
 - Nur Deutsch. Texte liegen als Literale im Code; für FR/IT/EN später in einen String-Katalog überführen.
 - Persistenz: eine JSON-Datei mit Schema-Version, atomar geschrieben, im Kernpaket getestet. Eine unlesbare oder neuere Datei wird beiseitegelegt statt überschrieben, Import ist alles-oder-nichts mit Grössen- und Inhaltsprüfung. Empfehlung: für das MVP dabei bleiben (einfach, testbar, portabel).
 - Keine Widgets, keine Feiertage, kein Sync, keine Käufe (bewusst, siehe Konzept 5.6).

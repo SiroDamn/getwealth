@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Reihum app icon: five people on a ring, the one who is up next is large and white. Own artwork, no third-party material.
+       Full-bleed square on purpose: iOS applies the rounded mask itself. -->
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="80%">
+      <stop offset="0" stop-color="#127f76"/>
+      <stop offset="1" stop-color="#0a4b45"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <!-- the ring the turns travel on -->
+  <circle cx="512" cy="540" r="290" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="18"/>
+  <!-- the four waiting members -->
+  <circle cx="788" cy="450" r="74" fill="#fb923c"/>
+  <circle cx="683" cy="774" r="74" fill="#818cf8"/>
+  <circle cx="341" cy="774" r="74" fill="#f472b6"/>
+  <circle cx="236" cy="450" r="74" fill="#4ade80"/>
+  <!-- the one who is up next -->
+  <circle cx="512" cy="250" r="128" fill="#ffffff"/>
+  <circle cx="512" cy="224" r="40" fill="#0a4b45"/>
+  <path d="M 432 334 C 432 286 468 266 512 266 C 556 266 592 286 592 334 Z" fill="#0a4b45"/>
+</svg>
